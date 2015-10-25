@@ -1,0 +1,111 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: AndroidManifest.xml
+SHA1-Digest: 0Buhwit8uMKg4+zam433RlooF3k=
+
+Name: assets/www/Like Outline-50.png
+SHA1-Digest: S8+U56PBu1DmQ3xPybbnw/KLkw8=
+
+Name: assets/www/Home-50 (2).png
+SHA1-Digest: L0723Z2OLj1QU2z9nRS32GUdhaw=
+
+Name: res/drawable-ldpi-v4/icon.png
+SHA1-Digest: C0DaNltchI6oxfmTpZfR0f5r82g=
+
+Name: assets/www/books.html
+SHA1-Digest: NOdtodXruBxrg+2tBC2hD/att4k=
+
+Name: res/drawable-xxhdpi-v4/icon.png
+SHA1-Digest: C0DaNltchI6oxfmTpZfR0f5r82g=
+
+Name: assets/www/Newspaper-128.png
+SHA1-Digest: tVjh9AQAr39SFE75npdL9c1+YC8=
+
+Name: assets/www/home.png
+SHA1-Digest: dlNSfvXxcOOXvCSdzmAgznYuq+0=
+
+Name: assets/www/x_office_address_book.png
+SHA1-Digest: QCJ64sgjAup3qA/+Ernllnagph8=
+
+Name: res/drawable-hdpi-v4/icon.png
+SHA1-Digest: C0DaNltchI6oxfmTpZfR0f5r82g=
+
+Name: assets/www/Weather.png
+SHA1-Digest: shgdyvpoZTI7Am9O4dv3847VWv0=
+
+Name: assets/www/back_button-640x594.png
+SHA1-Digest: iCR4u19wSMRPEi2aA1QI0DYFc94=
+
+Name: assets/www/name.html
+SHA1-Digest: FAAt9oqbOIRxiZ2xphagOIW4El4=
+
+Name: assets/www/news.css
+SHA1-Digest: nhCua0ptGK2Lj98uEiIHLkhAXs4=
+
+Name: assets/www/Old Movie.png
+SHA1-Digest: YjtbzaKgSgRCtY5AoFrP03B5N7g=
+
+Name: assets/www/new.css
+SHA1-Digest: wlPA10ngk12fiI13pnysEeico7k=
+
+Name: assets/www/Info-50.png
+SHA1-Digest: UdXCpDAIpL1aGNVv/moak1/FVvQ=
+
+Name: assets/www/help.html
+SHA1-Digest: CSqpE6H1vC95uFF1j7SSfFmUuIE=
+
+Name: assets/www/music.png
+SHA1-Digest: Dx92R9HaEp+TlCQlegG6s4ZaHqQ=
+
+Name: assets/www/aami2-17-128.png
+SHA1-Digest: 7AnmsVnroQa5g1SMf26tV7/yOg8=
+
+Name: assets/www/gadegt.html
+SHA1-Digest: OaOhIemaJzrIpBD0paNp5cIirPA=
+
+Name: assets/www/icon.png
+SHA1-Digest: C0DaNltchI6oxfmTpZfR0f5r82g=
+
+Name: assets/www/index.html
+SHA1-Digest: tWpxzr+x2WeWys6V8/C4zqMy98Q=
+
+Name: res/layout/main.xml
+SHA1-Digest: c/H++Awri5jWT/ztWKbvG4YdeXQ=
+
+Name: assets/www/news.html
+SHA1-Digest: b++xAhCsmEmSzK3rBUig1Hy25Ls=
+
+Name: assets/www/weather.html
+SHA1-Digest: SiBoD1kKpPCq4VcsmbzC2TGlXXE=
+
+Name: assets/www/name.css
+SHA1-Digest: TK90td72Ze4y7m0KIZOopPLZ7/0=
+
+Name: res/drawable-xhdpi-v4/icon.png
+SHA1-Digest: C0DaNltchI6oxfmTpZfR0f5r82g=
+
+Name: assets/www/index.js
+SHA1-Digest: T5cqedxSjomUH+8h/tYf1XQq/xo=
+
+Name: assets/www/movies.html
+SHA1-Digest: y0oA1U1wG++IfvWZzpaHhkCE9lY=
+
+Name: res/drawable-mdpi-v4/icon.png
+SHA1-Digest: C0DaNltchI6oxfmTpZfR0f5r82g=
+
+Name: assets/www/about.css
+SHA1-Digest: HjqwGRlN/78Wz0VSNnD6kNWlUuI=
+
+Name: resources.arsc
+SHA1-Digest: u6w6u/wY4udCPqAWMfhRHcet6tI=
+
+Name: assets/www/music.html
+SHA1-Digest: 0kK6JZBSaIC760uTs85StpfWddo=
+
+Name: classes.dex
+SHA1-Digest: 9qW3iLVXnRPcWDoDW9c9CcziO/k=
+
+Name: assets/www/ajax-loader.gif
+SHA1-Digest: PahGJo7keJ4l0pCWRU4UjPwTnMA=
+

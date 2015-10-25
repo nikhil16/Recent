@@ -1,0 +1,45 @@
+table{
+ body background-color:black;
+ }
+
+table, th, td {
+    border: 1px #292929 groove ;
+    border-collapse: collapse;
+	padding: 9px;
+}
+
+
+
+table#table2{
+	border:0px;
+	border-collapse:collapse;
+	padding:10px;
+}
+
+th#t90{
+    border: 0px ;
+	background-color:#292929;
+	padding: 11px;
+	}
+
+#status { height:-1px; text-align:center; color:#060; }
+#status.online { background:green;}
+#status.offline { background:red; }
+#hide{ border:1px dotted; white-space:pre; max-height:50px; overflow:hidden; }
+
+.header-cont{
+	position:fixed;
+	width:100%;
+	top:0px;
+}
+
+.header{
+	background-color:#444;
+	height:58px;
+	padding:1px;
+}
+
+
+body{
+	margin:0px;
+}

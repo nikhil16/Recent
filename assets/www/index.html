@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" />
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="Recent" content="Recent data">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title> recent </title>
+    <link rel="stylesheet" href="new.css" />
+    <link rel="alternate" type="application/rss+xml" title="Recent" href="url/to/rss/file">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+    	$("document").ready(function(e) {
+			$("#table1 > tbody > tr").click(function(){
+				var k = $(this).find("a").attr("href");
+				$(".loader").css("display","block").promise().done(function(){
+					window.location.replace(k);
+				});
+			});
+		});
+    </script>
+    <script>
+    function updateOnlineStatus(msg) {
+    var status = document.getElementById("status");
+    var condition = navigator.onLine ? "ONLINE" : "OFFLINE";
+    status.setAttribute("class", condition);
+    var state = document.getElementById("state");
+    state.innerHTML = condition;
+    }
+    function loaded() {
+    updateOnlineStatus("load");
+    document.body.addEventListener("offline", function () { updateOnlineStatus("offline") }, false);
+    document.body.addEventListener("online", function () { updateOnlineStatus("online") }, false);
+    }
+  </script>
+</head>
+
+<body onload="loaded()">
+
+<div class="loader" style="position:fixed; z-index:9999999; display:none; left:50%; top:50%; margin-left:-25px; margin-top:-25px;">
+<img src="ajax-loader.gif" width="50" height="50">
+</div>
+<div class="header-cont">
+<div class="header">
+<center> 
+<h1>
+<font size="5px" color="white"> RECENT </font> </h1>
+</center>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<div id="content" draggable="true">
+<table id="table1" style= "width:95%" align="center" border-color="grey" draggable="true">
+<tbody>
+
+<tr>
+<th align="left"> 
+<img src="Newspaper-128.png" height="27%">
+<a href="news.html" style="text-decoration:none; color:black;" onmouseover="this.style.color='red'" onmouseout="style.color='black'"> &nbsp;<font size="4px" align:left> News </font> </a>
+</th> </tr>
+
+<tr>
+<th align="left">
+<img src="music.png" height="25%">
+<a href="music.html" style="text-decoration:none; color:black;" onmouseover="this.style.color='green'" onmouseout="style.color='black'"> &nbsp;&nbsp;<font size="4px"> Music </font></a></th></tr>
+
+<tr>
+<th align="left">
+<img src="x_office_address_book.png" height="25%"> 
+<a href="books.html" style="text-decoration:none; color:black;" onmouseover="this.style.color='blue'" onmouseout="style.color='black'"> &ensp;<font size="4px"> Books </font></a></th></tr>
+
+<tr>
+<th align="left"> 
+<img src="Old Movie.png" height="25%"> 
+<a href="movies.html" style="text-decoration:none; color:black;" onmouseover="this.style.color='gray'" onmouseout="style.color='black'"> &nbsp;&nbsp;<font size="4px"> Movies </font></a></th></tr>  
+
+<tr>
+<th align="left">
+<img src="aami2-17-128.png" height="25%">
+<a href="gadegt.html" style="text-decoration:none; color:black;" onmouseover="this.style.color='orange'" onmouseout="style.color='black'"> &nbsp&nbsp<font size="4px"> Gadgets </font></a></th></tr>
+
+<tr>
+<th align="left"> 
+<img src="Weather.png" height="25%"> 
+<a href="weather.html" style="text-decoration:none; color:black;" onmouseover="this.style.color='purple'" onmouseout="style.color='black'">&nbsp&nbsp&nbsp<font size="4px">Weather</font> </a></th></tr>
+
+</tbody>
+</table>
+</div>
+
+<div id="status"><h2 id="state" style="font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', serif" /></div>
+<div id=""/>
+<center>
+<h4>"This App will Work only ONLINE"
+ </h4> 
+</center>
+<br>
+<br>
+<br>
+
+<footer draggable="false" style="position:fixed;bottom:0x">
+<table id="table2" style="width:100%; position:fixed; bottom:0px">
+<tr>
+<th id="t90"><a href="index.html" style="text-decoration:none; color:white;" /><img src="Home-50 (2).png" height="43%">
+</th> 
+<th id="t90"><a href="help.html" style="text-decoration:none; color:white;" /><img src="Like Outline-50.png" height="42%"> 
+</th>   
+<th id="t90"><a href="name.html" style="text-decoration:none; color:white;" /><img src="Info-50.png" height="42%">
+</th>
+</tr>
+</table>
+</footer> 
+
+</body>
+</html>
